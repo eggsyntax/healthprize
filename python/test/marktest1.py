@@ -1,9 +1,5 @@
 # This is the example from http://unmarkedegg.pbworks.com/w/page/38869923/How-to-make-predictions-with-the-DSL
 
-import sys
-print sys.path
-sys.path.append('/Users/egg/Documents/Programming/healthprize/python')
-
 from domain.data import *
 	#(don't worry about why yet, but this line should be at the top of every program you write)
 
