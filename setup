@@ -1,4 +1,6 @@
+
 virtualenv --no-site-packages .
+echo 'export OLD_PYTHONPATH="$PYTHONPATH"' >> bin/activate
+echo "export PYTHONPATH=$PWD/python:$PWD/lib" >> bin/activate
 source bin/activate
 easy_install pymysql
-echo 'export OLD_PYTHONPATH="$PYTHONPATH"' >> bin/activate
